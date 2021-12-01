@@ -38,7 +38,7 @@ defmodule GenReport do
     "dezembro"
   ]
 
-  def build(), do: {:error, "Insira o nome de um arquivo"}
+  def build(), do: {:error, "Please inform the file (string)!"}
 
   # GenReport.build("gen_report.csv")
   def build(filename) do
@@ -111,4 +111,8 @@ defmodule GenReport do
       "hours_per_year" => hours_per_year
     }
   end
+
+  # --Código paralelo
+  def build_from_many(filenames) when not is_list(filenames),
+    do: {:error, "Please provide a list of strings!"}
 end
