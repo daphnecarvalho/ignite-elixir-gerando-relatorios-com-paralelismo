@@ -5,45 +5,45 @@
   "passed": [
     {
       "describe": "parse_file/1",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/parser_test.exs",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/parser_test.exs",
       "line": 7,
       "module": "Elixir.GenReport.ParserTest",
       "test": "test parse_file/1 parses the file"
     },
     {
+      "describe": "build/0",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
+      "line": 11,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/0 When no filename is given, returns an error"
+    },
+    {
       "describe": "build_from_many/0",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
       "line": 27,
       "module": "Elixir.GenReportTest",
       "test": "test build_from_many/0 When no list of files is given, returns an error"
     },
     {
       "describe": "build_from_many/1",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
-      "line": 41,
-      "module": "Elixir.GenReportTest",
-      "test": "test build_from_many/1 when a file list is not provided, returns an error"
-    },
-    {
-      "describe": "build/0",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
-      "line": 11,
-      "module": "Elixir.GenReportTest",
-      "test": "test build/0 When no filename is given, returns an error"
-    },
-    {
-      "describe": "build_from_many/1",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
       "line": 35,
       "module": "Elixir.GenReportTest",
       "test": "test build_from_many/1 when a file list is provided, builds the report (in parallel)"
     },
     {
       "describe": "build/1",
-      "file": "/home/daphnecarvalho/ignite-trilha-elixir-turma01-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
       "line": 19,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When passing file name return a report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/daphnecarvalho/ignite-trilha-elixir-2021-gerando-relatorios-com-paralelismo/test/gen_report_test.exs",
+      "line": 41,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 when a file list is not provided, returns an error"
     }
   ],
   "skiped": []

@@ -41,7 +41,7 @@ defmodule GenReport do
   def build(), do: {:error, "Please inform the file (string)!"}
 
   # GenReport.build("gen_report.csv")
-  #:timer.tc(fn -> GenReport.build("gen_report.csv") end)
+  # :timer.tc(fn -> GenReport.build("gen_report.csv") end)
   def build(filename) do
     filename
     |> Parser.parse_file()
@@ -115,8 +115,8 @@ defmodule GenReport do
 
   # --Código paralelo
 
-  #GenReport.build_from_many(["part_1.csv", "part_2.csv", "part_3.csv"])
-  #:timer.tc(fn -> GenReport.build_from_many(["part_1.csv", "part_2.csv", "part_3.csv"]) end)
+  # GenReport.build_from_many(["part_1.csv", "part_2.csv", "part_3.csv"])
+  # :timer.tc(fn -> GenReport.build_from_many(["part_1.csv", "part_2.csv", "part_3.csv"]) end)
 
   def build_from_many(), do: {:error, "Please provide a list of strings!"}
 
